@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2e21c8d-2425-450c-86f4-a9d0c3154d9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_10_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_3_0_17_ga_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOGS/Logging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOGS/Logging.html.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOGS/Logging.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOGS/Logging.txt.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOGS/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoRaNetwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-20190722.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-3.0.17-ga-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/ConfigManager$ConfigManagerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/ConfigManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$DatabaseException$EmptyResultSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$DatabaseException$IsNull.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$DatabaseException$IsOffline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$DatabaseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager$Mode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/DatabaseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager$FileManagerException$Existence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager$FileManagerException$General.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager$FileManagerException$Parse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager$FileManagerException$PermissionDenied.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager$FileManagerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/LoggerHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/LoggerHelper$Types.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/LoggerHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/MyHtmlFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Logger/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Webserver/PageHandler$OnPageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Webserver/PageHandler$Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Webserver/PageHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Webserver/Webserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Extentions/Webserver/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Gateway$DataProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Gateway$Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Gateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Node$Packet$DataPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Node$Packet$PacketException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Node$Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/DataSets/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/GatewayServices/GatewayServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/GatewayServices/PacketHandler$OnPacketListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/GatewayServices/PacketHandler$OnStatusListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/GatewayServices/PacketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/GatewayServices/UDPServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/LoRaNetwork/HardwareManagers/NodeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoRaNetwork/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Logger/LoggerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Logger/MyHtmlFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Logger/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Webserver/PageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Webserver/Webserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Extentions/Webserver/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/DataSets/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/DataSets/Gateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/DataSets/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/GatewayServices/GatewayServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/GatewayServices/PacketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/GatewayServices/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/HardwareManagers/GatewayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoRaNetwork/HardwareManagers/NodeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/com_github_cliftonlabs_json_simple_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/libraries/mysql_connector_java_3_0_17_ga_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.html.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.html.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.txt.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging.txt.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging[Conflict].html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/Logging[Conflict].txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LOGS/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/LoRaWebLink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/jackson-annotations-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/jackson-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/jackson-databind-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/json-20190722.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/lib/mysql-connector-java-3.0.17-ga-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out (2)/production/LoRaWebLink/WebLink/WebServices (1).class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out (2)/production/LoRaWebLink/WebLink/WebServices$1 (1).class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Applications/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Applications/ApplicationManager$ApplicationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Applications/ApplicationManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Applications/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/ConfigManager$ConfigManagerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/ConfigManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$DatabaseException$EmptyResultSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$DatabaseException$IsNull.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$DatabaseException$IsOffline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$DatabaseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager$Mode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/DatabaseManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager$FileManagerException$Existence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager$FileManagerException$General.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager$FileManagerException$Parse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager$FileManagerException$PermissionDenied.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager$FileManagerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/LoggerHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/LoggerHelper$Types.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/LoggerHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/MyHtmlFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Logger/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Webserver/PageHandler$OnPageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Webserver/PageHandler$Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Webserver/PageHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Webserver/Webserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/Webserver/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Extentions/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Modules/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Modules/Gateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Modules/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserData$Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserManager$UserManagerExceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/UserSessionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/Users/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/WebLink/WebServices$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/WebLink/WebServices$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/WebLink/WebServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/WebLink/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/LoRaWebLink/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/out/production/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Applications/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Applications/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Applications/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Logger/LoggerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Logger/MyHtmlFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Logger/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Webserver/PageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Webserver/Webserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Extentions/Webserver/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Modules/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Modules/Gateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Modules/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/UserSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/UserSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/Users/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/WebLink/WebServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoRaWebLink/src/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Aantekeningen LoRa Node.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Behuizing/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Code/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Flowchart/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Flowchart/loraSchetsV0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Fritzing/Ontwerp hardware V0.fzz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/Fritzing/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LoRa Node/Ontwerpen/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/com_github_cliftonlabs_json_simple_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/http_20070405.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/mysql_connector_java_3_0_17_ga_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/libraries/org_eclipse_paho_org_eclipse_paho_client_mqttv3_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/LOGS/Logging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/LOGS/Logging.html.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/LOGS/Logging.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/LOGS/Logging.txt.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/LOGS/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/PROTOCOL/SEMTECHPROTO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/PROTOCOL/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/lib/http-20070405.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/lib/json-20190722.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/lib/mysql-connector-java-3.0.17-ga-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/saschaMain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/EndPoint/WebApiServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/EndPoint/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/ExtensionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/JSONManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Logger/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Logger/LoggerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Logger/MyHtmlFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Logger/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/MQTTManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Webserver/PageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Webserver/Webserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Extentions/Webserver/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/ApplicationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/DataSets/Gateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/DataSets/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/DataSets/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/DataSets/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/GatewayServices/GatewayServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/GatewayServices/PacketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/GatewayServices/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/GatewayServices/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/LoRa/LoRaServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/UserSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/UserSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/Users/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Server/src/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../End-Point/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../End-Point/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LoRa Gateway/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoRa Gateway/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LoRa Node/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../LoRa Node/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../desktop.ini" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1S3jjo7cAbjZJM4DYKiRwGTCA6z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\Desktop\LoRaNetwork" />
+      <recent name="C:\Users\alexa\Desktop\LoRaNetwork\src\LoRaNetwork" />
+      <recent name="C:\Users\alexa\Desktop\LoRaNetwork\lib" />
+      <recent name="C:\Users\alexa\Desktop\LoRaNetwork\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LoRaNetwork" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2e21c8d-2425-450c-86f4-a9d0c3154d9c" name="Default Changelist" comment="" />
+      <created>1570799310613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570799310613</updated>
+      <workItem from="1570799314072" duration="2054000" />
+      <workItem from="1570801843710" duration="8735000" />
+      <workItem from="1570962338130" duration="1236000" />
+      <workItem from="1571050073235" duration="578000" />
+      <workItem from="1571127601411" duration="9928000" />
+      <workItem from="1571241522429" duration="1340000" />
+      <workItem from="1571311589644" duration="1342000" />
+      <workItem from="1571392185784" duration="382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((java.util.ArrayList)((JSONArray)((HashMap.Node)((HashMap)obj.map).entrySet().toArray()[0]).getValue()).myArrayList).get(0)" custom="org.json.JSONArray,java.util.ArrayList,java.util.HashMap.Node,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

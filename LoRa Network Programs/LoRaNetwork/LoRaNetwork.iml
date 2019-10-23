@@ -7,11 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0" level="project" />
-    <orderEntry type="library" name="http-20070405" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-3.0.17-ga-bin" level="project" />
-    <orderEntry type="library" name="com.github.cliftonlabs:json-simple:3.1.0" level="project" />
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-databind:2.10.0" level="project" />
+    <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-databind:2.10.01" level="project" />
     <orderEntry type="library" name="json-20190722" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-3.0.17-ga-bin" level="project" />
   </component>
 </module>
