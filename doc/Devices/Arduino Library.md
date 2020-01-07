@@ -1,4 +1,6 @@
-﻿## Inleiding
+﻿![enter image description here](https://raw.githubusercontent.com/Lenteguppie/LoRaMeshNetwork/master/doc/Devices/Media/Library%20Logo.png)
+
+## Inleiding
 
 De code voor het aansturen van de LoRa node is best lang, ingewikkeld en niet heel erg overzichtelijk. Daarom hebben wij een library opgesteld om het coderen en het algemeen gebruiken van de node erg makkelijk te maken.
 
@@ -115,4 +117,3 @@ Dit bericht wordt omgezet naar een hexadecimale string en het hexadecimale beric
 
  ##  
 > _2019, 11 december door Mart-Jan Koedam_
-
