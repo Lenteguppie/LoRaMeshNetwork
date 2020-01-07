@@ -6,7 +6,7 @@ WebLink wordt gebruikt om informatie uit te kunnen wisselen tussen onze servers.
 Een aantal voorbeelden zijn:
  - Login
  - Registeren
- - Applicatie aanmaken & beheren (Nodes toevoegen)
+ - Applicatie aanmaken & beheren (Nodes Beheren)
  - Gateways toevoegen en onderhouden
  
 In dit document zal de informatie uitwisseling tussen onze servers uitvoerig worden beschreven.
@@ -22,11 +22,11 @@ dit is van belang omdat er per gebruiker bijvoorbeeld nodes and gateways gekoppe
 
 ### Voorbeeld:
 
-Request URL:  *https://[SERVER_IP]/login?email=[USER_EMAIL]&password=[USER_PASSWORD]&firstname=[USER_FIRSTNAME]
+Request URL:  *https://[SERVER_URL]/login?email=[USER_EMAIL]&password=[USER_PASSWORD]&firstname=[USER_FIRSTNAME]
 &lastname=[USER_PASSWORD]&username=[USER_USERNAME]*
 
 Data Fields:
- 1. SERVER_URL
+ 1. SERVER_URL (Adres waarnaar de informatie wordt gestuurd)
  2. USER_EMAIL
  3. USER_PASSWORD
  4. USER_FIRSTNAME
@@ -59,10 +59,10 @@ Als alle informatie niet volledig of met een fout formaat is overgekomen antwoor
 Bij login is het voor ons van belang dat wij weten wie er toegang heeft tot welke gegevens hiervoor maken wij gebruikt van sessie cookies die bijhouden wie er op welk moment is ingelogd. voor veiligheidsreden, maken wij niet bekend hoe wij deze dat verwerken. Echter word hier beschreven hoe de informatie flow van dit proces werkt. 
 
 ### Voorbeeld:
-Request URL:  *https://[SERVER_IP]/login?email=[USER_EMAIL]&password=[USER_PASSWORD]*
+Request URL:  *https://[SERVER_URL]/login?email=[USER_EMAIL]&password=[USER_PASSWORD]*
 
 Data Fields:
- 1. SERVER_URL
+ 1. SERVER_URL (Adres waarnaar de informatie wordt gestuurd)
  2. USER_EMAIL
  3. USER_PASSWORD
 
@@ -91,22 +91,45 @@ Met de derde uitkomst heeft de server niet alle informatie volledig of in het go
 
 
 ## Applicatie aanmaken & beheren
+
+> Deze methode wordt gebruikt voor de hoofdwebsite en dashboard, niet voor NetLink API
+
 Het hele project draait om informatie visualisering, dit met LoRa data. Om deze visualisering overzichtelijk te houden hebben wij gekozen om informatie onder te verdelen in Applicaties met allerlei data verzamelpunten "Nodes"
-[LINK](google.com)
+
 Informatie Hiërarchie:
 
 * Applicatie
 	* Nodes
 		* Data
 
-Door deze structuur te gebruiken blijft het voor de gebruiker overzichtelijk om iets uit de data op te maken en weer te verwerken. 
+Door deze structuur te gebruiken blijft het voor de gebruiker overzichtelijk om iets uit de data op te maken en weer te verwerken. Deze filosofie wordt door heel WebLink gebruikt dat het overzichtelijk moet zijn en makkelijk verwerkbaar moet zijn. 
 
+Functie Applicatie aanmaken & beheren:
 
+* Applicatie aanmaken 
+* Nodes beheren
+* Intergratie gegevens ([NetLink API](http://192.168.1.19:8000/network/netlink.html))
+* Applicatie verwijderen
 
+### Applicatie aanmaken
 
+#### Voorbeeld:
 
+Request URL:  *https://[SERVER_URL]/createApp?name=[APP_NAME]&description=[APP_DESCRIPTION]&sessionKey=[USER_SESSIONKEY]*
 
+Data Fields:
+ 1. SERVER_URL (Adres waarnaar de informatie wordt gestuurd)
+ 2. APP_NAME
+ 3. APP_DESCRIPTION
+ 4. USER_SESSIONKEY
 
+Voor het aanmaken van een applicatie zijn twee gegevens nodig een APP_NAME en een APP_DESCRIPTION.
 
+De APP_NAME is de naar die wordt gebruikt te identificatie van de applicatie in de lijst van gebruiker applicaties, de APP_DESCRIPTION geeft een beschrijving van de applicatie te verdere verduidelijking van het applicatie doel.
 
+De USER_SESSIONKEY wordt gebruikt om de actie van het aanmaken van de applicatie te valideren en te koppelen aan het account van de gebruiker zodat zij hier later naar terug kunnen komen.
+
+De server kan met de volgende antwoorden terug sturen:
+
+ - List item
 
