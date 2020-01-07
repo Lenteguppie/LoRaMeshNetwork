@@ -94,7 +94,7 @@ Met de derde uitkomst heeft de server niet alle informatie volledig of in het go
 
 > Deze methode wordt gebruikt voor de hoofdwebsite en dashboard, niet voor NetLink API
 
-Het hele project draait om informatie visualisering, dit met LoRa data. Om deze visualisering overzichtelijk te houden hebben wij gekozen om informatie onder te verdelen in Applicaties met allerlei data verzamelpunten "Nodes"
+Het hele project draait om informatie visualisering, dit met LoRa data. Om deze visualisering overzichtelijk te houden hebben wij gekozen om informatie onder te verdelen in Applicaties met allerlei data verzamelpunten "Nodes".
 
 Informatie Hiërarchie:
 
