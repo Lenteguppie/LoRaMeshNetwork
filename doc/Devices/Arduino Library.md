@@ -36,7 +36,7 @@ Dit implementeert de header van de HRLora library, de header zorgt er tevens voo
 ```arduino
 HRLora LoRa("####################################");
 ```
-Dit is het stukje code waar je je uid-key kan invoeren, hier is ook de variabelenaam geinstantiëerd om straks de functies mee op te roepen (_LoRa_). De key wordt voor je gegenereerd op onze [Web App]([https://lora.anothertechproject.com/](https://lora.anothertechproject.com/)), je ziet hoe je die kan ophalen in de documentatie van de Web App. Voer de gegenereerde uid-key in op de plek waar nu hashtags(**#**) staan.
+Dit is het stukje code waar je je uid-key kan invoeren, hier is ook de variabelenaam geinstantiëerd om straks de functies mee op te roepen (_LoRa_). De key wordt voor je gegenereerd op onze [Web App](https://lora.anothertechproject.com/), je ziet hoe je die kan ophalen in de documentatie van de Web App. Voer de gegenereerde uid-key in op de plek waar nu hashtags(**#**) staan.
 
 ```arduino
 void setup() {
