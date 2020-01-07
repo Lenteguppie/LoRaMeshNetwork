@@ -6,21 +6,19 @@ WebLink wordt gebruikt om informatie uit te kunnen wisselen tussen onze servers.
 Een aantal voorbeelden zijn:
  - Login
  - Registeren
- - Applicatie aanmaken
- - Applicatie beheren (wijzigingen aanbrengen enz.)
- - Nodes toevoegen en onderhouden
+ - Applicatie aanmaken & beheren (Nodes toevoegen)
  - Gateways toevoegen en onderhouden
  
 In dit document zal de informatie uitwisseling tussen onze servers uitvoerig worden beschreven.
+Onze informatie flow is kan worden gevisualiseerd als volgt:
+![DataFlow](https://drive.google.com/uc?authuser=0&id=1uH9OnSnUf2Hpal254VgFSd8FlSfuiM2t&export=download)
+1. Request with fields
+2. Awnser with fields JSON
 
 ## Registeren
 
 Het maken van een account is nodig om alle instellingen op te slaan van de gebruiker.
 dit is van belang omdat er per gebruiker bijvoorbeeld nodes and gateways gekoppeld kunnen worden. Om te kunnen weten door wie deze in beheer zijn, is het nodig om een account aan te maken.
-
-![DataFlow](https://drive.google.com/uc?authuser=0&id=1uH9OnSnUf2Hpal254VgFSd8FlSfuiM2t&export=download)
-1. Request with fields
-2. Awnser with fields JSON
 
 ### Voorbeeld:
 
@@ -60,10 +58,6 @@ Als alle informatie niet volledig of met een fout formaat is overgekomen antwoor
 
 Bij login is het voor ons van belang dat wij weten wie er toegang heeft tot welke gegevens hiervoor maken wij gebruikt van sessie cookies die bijhouden wie er op welk moment is ingelogd. voor veiligheidsreden, maken wij niet bekend hoe wij deze dat verwerken. Echter word hier beschreven hoe de informatie flow van dit proces werkt. 
 
-![DataFlow](https://drive.google.com/uc?authuser=0&id=1uH9OnSnUf2Hpal254VgFSd8FlSfuiM2t&export=download)
-1. Request with fields
-2. Awnser with fields JSON
-
 ### Voorbeeld:
 Request URL:  *https://[SERVER_IP]/login?email=[USER_EMAIL]&password=[USER_PASSWORD]*
 
@@ -94,6 +88,18 @@ Deze sessie maakt mogelijk om acties in het systeem te kunnen uitvoeren en actie
 Met de derde uitkomst heeft de server niet alle informatie volledig of in het goede formaat verkregen. Dit ziet er als volgt uit:
 
     {"error":"invalid login request"}
+
+
+## Applicatie aanmaken & beheren
+Het hele project draait om informatie visualisering, dit met LoRa data. Om deze visualisering overzichtelijk te houden hebben wij gekozen om informatie onder te verdelen in Applicaties met allerlei data verzamelpunten "Nodes"
+[LINK](google.com)
+Informatie Hiërarchie:
+
+* Applicatie
+	* Nodes
+		* Data
+
+Door deze structuur te gebruiken blijft het voor de gebruiker overzichtelijk om iets uit de data op te maken en weer te verwerken. 
 
 
 
