@@ -1,4 +1,0 @@
-Ontwerpen > Fritzing > Ontwerp hardware V0 (Fritzing)  -  25-9-2019
-
-Aangezien er nog geen hardware tot onze beschikking is kan het ontwerp nog niet perfect gemaakt worden, er is echter wel gekeken naar de mogelijkheden met de sensoren en de verbinding tussen de Arduino en het LoRa-Shield.
-In dit ontwerp is nog een breadboard te zien, als dit ontwerp in de praktijk gebracht wordt, wordt er geen breadboard gebruikt in verband met de grootte van de behuizing, de robuustheid van het eindproduct en omdat het breadboard vooral wordt gebruikt voor prototyping.
