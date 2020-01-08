@@ -1,0 +1,33 @@
+{
+  "Database": {
+    "Username": "root",
+    "Password": "",
+    "Address": "localhost",
+    "Port": 3306,
+    "DatabaseName": "loraserver"
+  },
+  "MQTT": {
+    "Username": "zhrkmxcl",
+    "Password": "Ta7UTBN2g2-v",
+    "Address": "farmer.cloudmqtt.com",
+    "Port": "16353"
+  },
+  "ApplicationServer": {
+    "Port": 8883
+  },
+  "WebServerAPI": {
+    "Port": 8885
+  },
+  "GatewayServer": {
+    "Address" : "192.168.1.18",
+    "Port": 1700
+  },
+
+  "General": {
+    "Logger": true,
+    "ConnectionCheck": false
+  },
+  "Extentions": {
+
+  }
+}
