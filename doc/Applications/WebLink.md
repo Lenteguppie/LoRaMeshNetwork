@@ -102,7 +102,7 @@ Informatie Hiërarchie:
 	* Nodes
 		* Data
 
-Door deze structuur te gebruiken blijft het voor de gebruiker overzichtelijk om iets uit de data op te maken en weer te verwerken. Deze filosofie wordt door heel WebLink gebruikt dat het overzichtelijk moet zijn en makkelijk verwerkbaar moet zijn. 
+Door deze structuur te gebruiken blijft het voor de gebruiker overzichtelijk om iets uit de data op te maken en weer te verwerken. Deze filosofie wordt door heel WebLink gebruikt dat het overzichtelijk moet zijn en makkelijk verwerkbaar moet zijn 
 
 Functie Applicatie aanmaken & beheren:
 
