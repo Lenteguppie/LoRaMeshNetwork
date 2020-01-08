@@ -163,7 +163,7 @@ Wat is een library? Een library zorgt ervoor dat lange, ingewikkelde code netjes
 
 Om de library te gebruiken moet je die eerst downloaden. De library kan nu nog worden gedownload via [deze link](https://github.com/MJKoedam/HRLoraLibrary) maar er wordt verwacht dat de library binnenkort binnen de Arduino IDE beschikbaar is.
 
-Wanneer de library is gedownload kan je die in de libraries-path van Arduino plaatsen, maar de gebruiksvriendelijke manier is om eerst Arduino IDE te openen, naar het kopje `Schets` te gaan, daar klik je op `Bibliotheek toevoegen` en daarna klik je op `voeg .ZIP bibliotheek toe�` en dan selecteer je het zipbestand dat je zojuist hebt gedownload. Een iets korter voorbeeld:
+Wanneer de library is gedownload kan je die in de libraries-path van Arduino plaatsen, maar de gebruiksvriendelijke manier is om eerst Arduino IDE te openen, naar het kopje `Schets` te gaan, daar klik je op `Bibliotheek toevoegen` en daarna klik je op `voeg .ZIP bibliotheek toe` en dan selecteer je het zipbestand dat je zojuist hebt gedownload. Een iets korter voorbeeld:
 
 `Open Arduino IDE` > `Schets` > `Bibliotheek toevoegen` > `voeg .ZIP bibliotheek toe` > `selecteer HRLora.zip`
 
@@ -189,7 +189,7 @@ Dit implementeert de header van de HRLora library, de header zorgt er tevens voo
 ```arduino
 HRLora LoRa("####################################");
 ```
-Dit is het stukje code waar je je uid-key kan invoeren, hier is ook de variabelenaam geinstanti�erd om straks de functies mee op te roepen (_LoRa_). De key wordt voor je gegenereerd op onze [Web App]([https://anothertechproject.com/](https://anothertechproject.com/)).
+Dit is het stukje code waar je je uid-key kan invoeren, hier is ook de variabelenaam geinstantiëerd om straks de functies mee op te roepen (_LoRa_). De key wordt voor je gegenereerd op onze [Web App]([https://anothertechproject.com/](https://anothertechproject.com/)).
  > In de documentatie van de Web App wordt uitgelegd hoe je de uid key kan ophalen. 
 
 Voer de gegenereerde uid-key in op de plek waar nu hashtags(#) staan.
