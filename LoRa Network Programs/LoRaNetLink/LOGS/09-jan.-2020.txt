@@ -1,0 +1,8 @@
+jan. 09, 2020 12:45:15 P.M. Extentions.Logger.LoggerHelper logEntry
+INFO: Webserver	/0:0:0:0:0:0:0:0:7870
+jan. 09, 2020 12:45:15 P.M. Extentions.Logger.LoggerHelper logEntry
+INFO: Webserver	/0:0:0:0:0:0:0:0:7870
+jan. 09, 2020 12:45:15 P.M. Extentions.Logger.LoggerHelper logEntry
+INFO: DatabaseManager	LOADING...
+jan. 09, 2020 12:45:15 P.M. Extentions.Logger.LoggerHelper logEntry
+INFO: APIManager	LOADING...
