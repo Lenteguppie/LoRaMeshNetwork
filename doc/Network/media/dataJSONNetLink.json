@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "owner": "004bc545-f957-4df4-b646-e8326b3e7975",
+            "uid": "5d332cdc-8c36-4d09-94fc-fca3ddb66870",
+            "name": "Test Node 1",
+            "location": {
+                "altitude": 0,
+                "latitude": 51.80535,
+                "longitude": 4.50263
+            },
+            "brand": "Dragino",
+            "dataset": [
+                {
+                    "modu": "LORA",
+                    "stat": 1,
+                    "rssi": -50,
+                    "data": "dWlkPTVkMzMyY2RjLThjMzYtNGQwOS05NGZjLWZjYTNkZGI2Njg3MCZIZWxsbyBMb1JhIQ==",
+                    "origin": "a840411bbfbe",
+                    "freq": 868,
+                    "tmst": 3360316997,
+                    "rfch": 1,
+                    "codr": "4/5",
+                    "size": 52,
+                    "datr": "SF7BW125",
+                    "lsnr": 9,
+                    "time": "2019-11-26T16:57:1001239.133704Z",
+                    "chan": 0
+                }
+            ],
+            "frequency": 868000000
+        },
+        {
+            "owner": "004bc545-f957-4df4-b646-e8326b3e7975",
+            "uid": "63080ce4-22a0-4a03-bfc6-ecaf7198285a",
+            "name": "Test Node 2",
+            "location": {
+                "altitude": 0,
+                "latitude": 77,
+                "longitude": 77
+            },
+            "brand": "Dragino",
+            "frequency": 868000000
+        }
+    ]
+}
